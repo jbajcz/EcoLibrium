@@ -571,7 +571,7 @@ video {
   width: 1440px;
   height: 1024px;
   top: 28px;
-  background-image: url(./img/baxkground.png);
+  background-image: url("./images/background.png");
   background-size: cover;
   background-position: 50% 50%;
 }
