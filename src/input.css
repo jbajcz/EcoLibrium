@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.start-page-landing {
+background-color: #e4e4e4;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+}
+
+.start-page-landing .group-wrapper {
+background-color: #e4e4e4;
+overflow: hidden;
+width: 1440px;
+height: 1024px;
+}
+
+.start-page-landing .group {
+position: relative;
+width: 1442px;
+height: 1052px;
+top: -28px;
+}
+
+.start-page-landing .overlap-group {
+position: relative;
+width: 1440px;
+height: 1024px;
+top: 28px;
+background-image: url("./images/background.png");
+background-size: cover;
+background-position: 50% 50%;
+}
+
+.start-page-landing .rectangle {
+position: absolute;
+width: 594px;
+height: 594px;
+top: 215px;
+left: 423px;
+background-color: #ffffff;
+border-radius: 20px;
+box-shadow: 0px 4px 10px 5px #00000040;
+opacity: 0.7;
+}
+
+.start-page-landing .start-button {
+all: unset;
+box-sizing: border-box;
+position: absolute;
+width: 347px;
+height: 106px;
+top: 604px;
+left: 547px;
+background-color: #f1904f;
+border-radius: 20px;
+}
+
+.start-page-landing .text-wrapper {
+position: absolute;
+top: 22px;
+left: 91px;
+font-family: "IBM Plex Sans-Bold", Helvetica;
+font-weight: 700;
+color: #ffffff;
+font-size: 50px;
+letter-spacing: 0;
+line-height: normal;
+}
+
+.start-page-landing .div {
+position: absolute;
+top: 324px;
+left: 513px;
+font-family: "IBM Plex Sans-Bold", Helvetica;
+font-weight: 700;
+color: #54544b;
+font-size: 80px;
+letter-spacing: 0;
+line-height: normal;
+}
+  
