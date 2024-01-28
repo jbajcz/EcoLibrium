@@ -156,3 +156,110 @@ function updateMPD(A) {
     // Update the text content with the new value
     textElement.textContent = '$' + newValue + '/day';
 }
+
+function buyshop() {
+    var nav = document.querySelector('.start-game-interface .shop');
+    if (nav) {
+        nav.classList.toggle('open');
+    }
+}
+
+function buygazebo() {
+    var nav = document.querySelector('.start-game-interface .gazebo1');
+    if (nav) {
+        nav.classList.toggle('open');
+    }
+}
+
+function buypond() {
+    var nav = document.querySelector('.start-game-interface .pond1');
+    if (nav) {
+        // Check if the factory already has the 'open' class
+        if (nav.classList.contains('open')) {
+            // If it is open, untoggle and decrease happiness
+            nav.classList.remove('open');
+            updateHappiness(16);  // Reverse the happiness effect
+            updateMoney(-145);
+            updateMPD(12);
+        } else {
+            // If it is not open, toggle and increase happiness
+            nav.classList.add('open');
+            updateHappiness(-16);
+            updateMoney(155);
+            updateMPD(-12);
+        }
+    }
+}
+
+function updateHappiness(A) {
+    var textElement = document.querySelector('.start-game-interface .text-wrapper-3');
+    var currentValue = textElement.textContent;
+
+    // Extract the numerical part and parse it as a number
+    var numericalValue = parseInt(currentValue, 10);
+
+    // Subtract A from the current numerical value
+    var newValue = numericalValue - A;
+
+    // Update the text content with the new value
+    textElement.textContent = newValue + '%';
+}
+
+function updateMoney(A) {
+    var textElement = document.querySelector('.start-game-interface .text-wrapper');
+    var currentValue = textElement.textContent;
+
+    // Extract the numerical part and parse it as a number
+    var numericalValue = parseInt(currentValue.replace('$', ''), 10);
+
+    // Subtract A from the current numerical value
+    var newValue = numericalValue - A;
+
+    // Update the text content with the new value
+    textElement.textContent = '$' + newValue;
+}
+
+function updateMPD(A) {
+    var textElement = document.querySelector('.start-game-interface .text-wrapper-2');
+    var currentValue = textElement.textContent;
+
+    var numericalValueMatch = currentValue.match(/\d+/);
+    var numericalValue = numericalValueMatch ? parseInt(numericalValueMatch[0], 10) : 0;
+
+    // Subtract A from the current numerical value
+    var newValue = numericalValue - A;
+    
+    // Update the text content with the new value
+    textElement.textContent = '$' + newValue + '/day';
+}
+
+function scrollRight() {
+    var initialMenu = document.querySelector('.start-game-interface .menu .initial');
+    var newMenu = document.querySelector('.start-game-interface .menu .new');
+    var rightArrowImage = document.querySelector('.start-game-interface .menu .right-arrow');
+    var leftArrowImage = document.querySelector('.start-game-interface .menu .left-arrow');
+
+    if (initialMenu) {
+        initialMenu.classList.toggle('changenone');
+        newMenu.classList.toggle('changeflex');
+    } else{
+        initialMenu.classList.toggle('changeflex');
+        newMenu.classList.toggle('changenone');
+    }
+
+}
+
+function scrollLeft() {
+    var initialMenu = document.querySelector('.start-game-interface .menu .initial');
+    var newMenu = document.querySelector('.start-game-interface .menu .new');
+    var rightArrowImage = document.querySelector('.start-game-interface .menu .right-arrow');
+    var leftArrowImage = document.querySelector('.start-game-interface .menu .left-arrow');
+
+    if (initialMenu) {
+        initialMenu.classList.toggle('changenone');
+        newMenu.classList.toggle('changeflex');
+    } else{
+        initialMenu.classList.toggle('changeflex');
+        newMenu.classList.toggle('changenone');
+    }
+}
