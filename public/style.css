@@ -1150,7 +1150,7 @@ nav{
   visibility: visible;
 }
 
-.start-game-interface .apartment {
+.start-game-interface .apartment1 {
   position: absolute;
   width: 100px;
   height: 100px;
@@ -1160,12 +1160,12 @@ nav{
   visibility: hidden;
 }
 
-.start-game-interface .apartment.open {
+.start-game-interface .apartment1.open {
   opacity: 1;
   visibility: visible;
 }
 
-.start-game-interface .factory {
+.start-game-interface .factory1 {
   position: absolute;
   width: 120px;
   height: 120px;
@@ -1175,7 +1175,7 @@ nav{
   visibility: hidden;
 }
 
-.start-game-interface .factory.open {
+.start-game-interface .factory1.open {
   opacity: 1;
   visibility: visible;
 }
@@ -1195,7 +1195,7 @@ nav{
   visibility: visible;
 }
 
-.start-game-interface .farm {
+.start-game-interface .farm1 {
   position: absolute;
   width: 100px;
   height: 100px;
@@ -1205,7 +1205,7 @@ nav{
   visibility: hidden;
 }
 
-.start-game-interface .farm.open {
+.start-game-interface .farm1.open {
   opacity: 1;
   visibility: visible;
 }

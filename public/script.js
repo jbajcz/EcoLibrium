@@ -20,14 +20,14 @@ function buyMhouse() {
 }
 
 function buyapartment() {
-    var nav = document.querySelector('.start-game-interface .apartment');
+    var nav = document.querySelector('.start-game-interface .apartment1');
     if (nav) {
         nav.classList.toggle('open');
     }
 }
 
 function buyfactory() {
-    var nav = document.querySelector('.start-game-interface .factory');
+    var nav = document.querySelector('.start-game-interface .factory1');
     if (nav) {
         nav.classList.toggle('open');
     }
@@ -41,7 +41,7 @@ function buylumber() {
 }
 
 function buyfarm() {
-    var nav = document.querySelector('.start-game-interface .farm');
+    var nav = document.querySelector('.start-game-interface .farm1');
     if (nav) {
         nav.classList.toggle('open');
     }
