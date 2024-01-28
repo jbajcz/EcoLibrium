@@ -881,27 +881,19 @@ video {
   white-space: nowrap;
 }
 
-.image {
+.start-game-interface .cloud {
+  position: absolute;
   width: 430px;
   height: 430px;
+  top: 0px;
+  left: 0px;
 }
 
-.image .cloud {
+.start-game-interface .cloud-1 {
   position: absolute;
-  width: 512px;
+  width: 430px;
   height: 430px;
-  top: 0;
-  left: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.image .cloud-1 {
-  position: absolute;
-  width: 512px;
-  height: 430px;
-  top: 500;
-  left: 1500;
-  -o-object-fit: cover;
-     object-fit: cover;
+  top: 250px;
+  left: 1000px;
+  transform: scaleX(-1);
 }
