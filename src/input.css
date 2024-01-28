@@ -81,3 +81,255 @@ font-size: 80px;
 letter-spacing: 0;
 line-height: normal;
 }
+
+.start-game-interface {
+background-color: #b3e4f9;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+}
+
+.start-game-interface .div {
+background-color: #b3e4f9;
+width: 1440px;
+height: 1024px;
+position: relative;
+}
+
+.start-game-interface .overlap {
+position: absolute;
+width: 693px;
+height: 693px;
+top: 257px;
+left: 351px;
+}
+
+.start-game-interface .rectangle {
+position: absolute;
+width: 500px;
+height: 500px;
+top: 97px;
+left: 97px;
+background-color: #a7ea96;
+border-radius: 35px;
+transform: rotate(33.69deg);
+box-shadow: 0px 8px 9.2px #51515140;
+}
+
+.start-game-interface .hitbox {
+position: absolute;
+width: 66px;
+height: 66px;
+top: 106px;
+left: 314px;
+background-color: #ffffff80;
+border-radius: 5px;
+transform: rotate(33.69deg);
+}
+
+.start-game-interface .image {
+width: 130px;
+height: 130px;
+top: 89px;
+left: 369px;
+position: absolute;
+object-fit: cover;
+}
+
+.start-game-interface .img {
+width: 130px;
+height: 130px;
+top: 236px;
+left: 155px;
+position: absolute;
+object-fit: cover;
+}
+
+.start-game-interface .image-2 {
+width: 130px;
+height: 130px;
+top: 347px;
+left: 472px;
+position: absolute;
+object-fit: cover;
+}
+
+.start-game-interface .overlap-group {
+position: absolute;
+width: 150px;
+height: 150px;
+top: 824px;
+left: 1235px;
+border-radius: 35px;
+}
+
+.start-game-interface .rectangle-2 {
+position: absolute;
+width: 150px;
+height: 150px;
+top: 0;
+left: 0;
+background-color: #f3c00d;
+border-radius: 35px;
+}
+
+.start-game-interface .complete {
+position: absolute;
+width: 70px;
+height: 70px;
+top: 40px;
+left: 40px;
+}
+
+.start-game-interface .zoom-in {
+top: 866px;
+position: absolute;
+width: 54px;
+height: 54px;
+left: 22px;
+background-color: #f3c00d;
+border-radius: 35px;
+}
+
+.start-game-interface .complete-2 {
+height: 32px;
+top: 11px;
+position: absolute;
+width: 32px;
+left: 11px;
+}
+
+.start-game-interface .zoom-out {
+top: 938px;
+position: absolute;
+width: 54px;
+height: 54px;
+left: 22px;
+background-color: #f3c00d;
+border-radius: 35px;
+}
+
+.start-game-interface .complete-3 {
+height: 10px;
+top: 22px;
+position: absolute;
+width: 32px;
+left: 11px;
+}
+
+.start-game-interface .overlap-2 {
+position: absolute;
+width: 420px;
+height: 104px;
+top: 30px;
+left: 982px;
+}
+
+.start-game-interface .rectangle-3 {
+position: absolute;
+width: 392px;
+height: 88px;
+top: 8px;
+left: 0;
+background-color: #f4e098cc;
+border-radius: 20px;
+border: 5px solid;
+border-color: #fef4d2cc;
+}
+
+.start-game-interface .rectangle-4 {
+position: absolute;
+width: 104px;
+height: 104px;
+top: 0;
+left: 316px;
+background-color: #f3c00d;
+border-radius: 20px;
+}
+
+.start-game-interface .text-wrapper {
+position: absolute;
+top: 38px;
+left: 188px;
+font-family: "Montserrat-Bold", Helvetica;
+font-weight: 700;
+color: #4a4a4a;
+font-size: 25px;
+text-align: center;
+letter-spacing: 0;
+line-height: normal;
+white-space: nowrap;
+}
+
+.start-game-interface .image-3 {
+width: 73px;
+height: 73px;
+top: 18px;
+left: 333px;
+position: absolute;
+object-fit: cover;
+}
+
+.start-game-interface .line {
+position: absolute;
+width: 1px;
+height: 51px;
+top: 29px;
+left: 171px;
+object-fit: cover;
+}
+
+.start-game-interface .text-wrapper-2 {
+position: absolute;
+top: 41px;
+left: 41px;
+font-family: "Montserrat-Medium", Helvetica;
+font-weight: 500;
+color: #000000;
+font-size: 20px;
+text-align: center;
+letter-spacing: 0;
+line-height: normal;
+white-space: nowrap;
+}
+
+.start-game-interface .group {
+position: absolute;
+width: 133px;
+height: 131px;
+top: 23px;
+left: 30px;
+}
+
+.start-game-interface .overlap-group-2 {
+position: relative;
+width: 131px;
+height: 131px;
+background-color: #f4e098;
+border-radius: 65.5px;
+border: 6px solid;
+border-color: #bf723f;
+}
+
+.start-game-interface .group-2 {
+position: absolute;
+width: 45px;
+height: 45px;
+top: 16px;
+left: 38px;
+}
+
+.start-game-interface .text-wrapper-3 {
+position: absolute;
+top: 73px;
+left: 33px;
+font-family: "Montserrat-Bold", Helvetica;
+font-weight: 700;
+color: #bf723f;
+font-size: 25px;
+text-align: center;
+letter-spacing: 0;
+line-height: normal;
+white-space: nowrap;
+}
