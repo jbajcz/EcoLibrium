@@ -896,17 +896,3 @@ video {
   left: 1000px;
   transform: scaleX(-1);
 }
-
-.start-game-interface .house {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  top: 85px;
-  left: 322px;
-  opacity: 0;
-}
-
-.start-game-interface .house .open{
-  opacity: 1;
-}
-
