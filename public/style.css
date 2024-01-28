@@ -701,15 +701,6 @@ video {
      object-fit: cover;
 }
 
-.start-game-interface .overlap-group {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  top: 824px;
-  left: 1235px;
-  border-radius: 35px;
-}
-
 .start-game-interface .rectangle-2 {
   position: absolute;
   width: 150px;
@@ -897,4 +888,235 @@ video {
   top: 250px;
   left: 1000px;
   transform: scaleX(-1);
+}
+
+
+.start-game-interface .overlap-group {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 824px;
+  left: 1235px;
+  border-radius: 35px;
+}
+
+nav{
+  position: absolute;
+  bottom: 0;
+  left: 130px;
+  width: 250px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.start-game-interface .navigation{
+  position: fixed;
+  width: 80%;
+  height: 200px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffffed;
+  transition: opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 15px;
+}
+
+.start-game-interface .navigation.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.start-game-interface .menu {
+  display: flex;
+  width: 902px;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 33px 13px 21px;
+  position: relative;
+}
+
+.start-game-interface .menu .option1 {
+  position: relative;
+  width: 141px;
+  height: 149.62px;
+}
+
+.start-game-interface .menu .cozyhouse {
+  width: 115px;
+  height: 116px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.start-game-interface .menu .text-wrapper {
+  position: absolute;
+  width: 139px;
+  top: 127px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.start-game-interface .menu .option2 {
+  position: relative;
+  width: 162px;
+  height: 155.37px;
+}
+
+.start-game-interface .menu .modern {
+  width: 131px;
+  height: 130px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.start-game-interface .menu .text-wrapper-2 {
+  position: absolute;
+  width: 160px;
+  top: 132px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+
+.start-game-interface .menu .option3 {
+  position: relative;
+  width: 141px;
+  height: 155px;
+}
+
+.start-game-interface .menu .apartment {
+  width: 133px;
+  height: 133px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.start-game-interface .menu .text-wrapper-3 {
+  position: absolute;
+  width: 141px;
+  top: 132px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+
+.start-game-interface .menu .option4 {
+  position: relative;
+  width: 116.1px;
+  height: 164px;
+}
+
+.start-game-interface .menu .factory {
+  width: 114px;
+  height: 136px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.start-game-interface .menu .text-wrapper-4 {
+  position: absolute;
+  width: 114px;
+  top: 141px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.start-game-interface .menu .option5 {
+  position: relative;
+  width: 124px;
+  height: 144.82px;
+}
+
+.start-game-interface .menu .lumber {
+  width: 105px;
+  height: 120px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.menu .text-wrapper-5 {
+  position: absolute;
+  width: 122px;
+  top: 122px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.menu .option6 {
+  position: relative;
+  width: 140px;
+  height: 143px;
+}
+
+.menu .farm {
+  width: 140px;
+  height: 125px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.menu .text-wrapper-6 {
+  position: absolute;
+  width: 130px;
+  top: 120px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
 }
