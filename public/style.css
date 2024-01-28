@@ -662,19 +662,18 @@ video {
 
 .start-game-interface .hitbox {
   position: absolute;
-  width: 66px;
-  height: 66px;
-  top: 106px;
-  left: 314px;
-  background-color: #ffffff80;
-  border-radius: 5px;
-  transform: rotate(46deg) skewY(-13deg) skewX(-15deg);
+  width: 650px;
+  height: 666px;
+  top: 10px;
+  left: 25px;
+  transform: scale(1.25) scaleX(.97) scaleY(.57) skewX(-4.5deg) skewY(1deg);
+  opacity: .4;
 }
 
 .start-game-interface .image {
   width: 130px;
   height: 130px;
-  top: 89px;
+  top: 76px;
   left: 369px;
   position: absolute;
   -o-object-fit: cover;
@@ -685,7 +684,7 @@ video {
   width: 130px;
   height: 130px;
   top: 236px;
-  left: 155px;
+  left: 85px;
   position: absolute;
   -o-object-fit: cover;
      object-fit: cover;
@@ -694,8 +693,8 @@ video {
 .start-game-interface .image-2 {
   width: 130px;
   height: 130px;
-  top: 347px;
-  left: 472px;
+  top: 325px;
+  left: 475px;
   position: absolute;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1076,7 +1075,7 @@ nav{
   top: 0;
 }
 
-.menu .text-wrapper-5 {
+.start-game-interface .menu .text-wrapper-5 {
   position: absolute;
   width: 122px;
   top: 122px;
@@ -1091,13 +1090,13 @@ nav{
   white-space: nowrap;
 }
 
-.menu .option6 {
+.start-game-interface .menu .option6 {
   position: relative;
   width: 140px;
   height: 143px;
 }
 
-.menu .farm {
+.start-game-interface .menu .farm {
   width: 140px;
   height: 125px;
   left: 0;
@@ -1106,7 +1105,7 @@ nav{
   top: 0;
 }
 
-.menu .text-wrapper-6 {
+.start-game-interface .menu .text-wrapper-6 {
   position: absolute;
   width: 130px;
   top: 120px;
@@ -1119,4 +1118,94 @@ nav{
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
+}
+
+.start-game-interface .house {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 90px;
+  left: 325px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.start-game-interface .house.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.start-game-interface .Mhouse {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 150px;
+  left: 325px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.start-game-interface .Mhouse.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.start-game-interface .apartment {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 200px;
+  left: 300px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.start-game-interface .apartment.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.start-game-interface .factory {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 150px;
+  left: 400px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.start-game-interface .factory.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.start-game-interface .lumbermill {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 300px;
+  left: 400px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.start-game-interface .lumbermill.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.start-game-interface .farm {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 250px;
+  left: 200px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.start-game-interface .farm.open {
+  opacity: 1;
+  visibility: visible;
 }
