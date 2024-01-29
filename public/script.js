@@ -263,3 +263,17 @@ function scrollLeft() {
         newMenu.classList.toggle('changenone');
     }
 }
+
+function nextDay() {
+    var textElement = document.querySelector('.start-game-interface .day-number');
+    var currentValue = textElement.textContent;
+
+    var numericalValueMatch = currentValue.match(/\d+/);
+    var numericalValue = numericalValueMatch ? parseInt(numericalValueMatch[0], 10) : 0;
+
+    // Subtract A from the current numerical value
+    var newValue = numericalValue + 1;
+    
+    // Update the text content with the new value
+    textElement.textContent = 'Day ' + newValue;
+}

@@ -858,6 +858,27 @@ video {
   left: 38px;
 }
 
+.start-game-interface .day-number {
+  position: absolute;
+  top: 115px;
+  left: 15px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 75px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  transform: rotate(-29deg) skewX(29deg);
+}
+
+.start-game-interface .complete-day {
+  position: absolute;
+  top: 900px;
+  left: 150px;
+}
+
 .start-game-interface .text-wrapper-3 {
   position: absolute;
   top: 73px;
